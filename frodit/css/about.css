@@ -11,7 +11,7 @@
 .hero-container {
   width: 100%;
   height: 100vh;
-  background: url(../image/hero/hero11.jpg);
+  background: url(../image/hero/hero11.jpg); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -69,6 +69,8 @@
 }
 .about-text-item p{
   width: 80%;
+  height: 80%;
+  font-size: 18px;
   font-weight:400 ;
   letter-spacing: 3px;
 }
@@ -127,6 +129,7 @@
   width: 80%;
   font-weight:400 ;
   letter-spacing: 3px;
+  font-size: 18px;
 }
 .section-mission .mission-text h2 {
   width: 80%;

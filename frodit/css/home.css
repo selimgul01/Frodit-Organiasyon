@@ -178,6 +178,7 @@
 .organization-wrapper .organizations {
   display: flex;
   justify-content: space-between;
+  width: 100%;
   column-gap: 30px;
   transform: translateX(0);
   transition: 1s all ease-in-out;
@@ -217,7 +218,7 @@
 
 .organization-item p {
   text-align: center;
-  /* font-size: 15px; */
+  font-size: 14px;
 }
 
 .arrow {
