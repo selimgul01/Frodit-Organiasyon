@@ -5,9 +5,11 @@
   list-style: none;
   box-sizing: border-box;
 }
-body a:visited,a:link, a:hover ,a:active{
+body a:visited,a:link,a:active{
   color: #fff9f9;
+  
 }
+
 
 
 body {
@@ -123,4 +125,7 @@ li {
   width: 70px;
   height: 70px;
   border-radius: 50%;
+}
+a:hover{
+  color: #fff9f9;
 }
