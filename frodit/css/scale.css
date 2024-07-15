@@ -1,0 +1,13 @@
+.image-wedding,.image-birthday,.image-gender,.image-company{
+    transition: 1s all ease ;
+}
+.image-wedding:hover,
+.image-birthday:hover,
+.image-gender:hover,
+.image-company:hover,
+.about-section-wrapper:hover,
+.mission-wrapper:hover
+{
+   transform: scale(1.1);
+    
+}

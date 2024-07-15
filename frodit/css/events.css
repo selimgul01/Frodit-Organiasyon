@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+
+.hero-container {
+  width: 100%;
+  height: 100vh;
+  background: url(../image/hero/hero10.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.hero-text {
+  width: 100%;
+  height: 100px;
+  padding: 0 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  position: relative;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 5px;
+  top: 30%;
+  /* background-color: rgba(0, 0, 0, 0.8); */
+  backdrop-filter: blur(10px);
+}
+
+
+
+.event-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  width: 100%;
+}
+
+
+/* wedding */
+.shine {
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: rgba(255, 255, 255, 0.3);
+  background: #222 -webkit-gradient(linear,
+      left top,
+      right top,
+      from(#222),
+      to(#222),
+      color-stop(0.5, #fff)) 0 0 no-repeat;
+  background-image: -webkit-linear-gradient(-40deg,
+      transparent 0%,
+      transparent 40%,
+      #fff 50%,
+      transparent 60%,
+      transparent 100%);
+  -webkit-background-clip: text;
+  -webkit-background-size: 50px;
+  -webkit-animation: zezzz;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes zezzz {
+
+  0%,
+  15% {
+    background-position: -200px;
+  }
+
+  20% {
+    background-position: top left;
+  }
+
+  100% {
+    background-position: 430px;
+  }
+}
+
+.event-section h2,
+.event-section button {
+  text-align: center;
+  cursor: pointer;
+  /* font-weight: 400;
+    font-size: 20px; */
+
+}
+
+.event-section .wedding {
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  border: 3px solid #bebaba;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.event-section .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 50px;
+  width: 30%;
+}
+
+.event-section .logo {
+  background-color: #F9EEE0;
+  width: 250px;
+  height: 100%;
+  padding-top: 7%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.event-section img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+
+.event-section p {
+  transform: rotate(270deg) translateX(-100px);
+  transform-origin: center;
+}
+
+.event-section .image-wedding {
+  width: 30%;
+  height: 100%;
+  background-image: url(../image/event/wedding/Tala-Samer-386.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+}
+
+/* wedding */
+
+/* birthday */
+
+.event-section .birthday {
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border: 3px solid #bebaba;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.event-section .image-birthday {
+  width: 30%;
+  height: 100%;
+  background-image: url(../image/birthday/birthday.jpeg);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+}
+
+/* birthday */
+
+/* gender learning */
+
+.event-section .gender {
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border: 3px solid #bebaba;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.event-section .image-gender {
+  width: 30%;
+  height: 100%;
+  background-image: url(../image/gender/gender.jpeg);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+}
+
+/* gender learning */
+
+/* Company */
+
+.event-section .company {
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  border: 3px solid #bebaba;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.event-section .image-company {
+  width: 30%;
+  height: 100%;
+  background-image: url(../image/company/formal.jpeg);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+}
+
+/* Company */
+

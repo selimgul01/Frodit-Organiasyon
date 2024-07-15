@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.hero-container {
+  width: 100%;
+  height: 100vh;
+  background: url(../image/hero/hero12.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.hero-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  position: relative;
+  width: 100%;
+  height: 100px;
+  padding: 0 10%;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 5px;
+  top: 30%;
+  /* background-color: rgba(0, 0, 0, 0.8); */
+  backdrop-filter: blur(10px);
+}
+
