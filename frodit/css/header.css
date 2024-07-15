@@ -114,11 +114,10 @@ li {
   cursor: pointer;
 }
 
-.header .logo a {
+.header .logo span {
   color: rgb(243, 241, 241);
   font-size: 14px;
   padding-left: 10px;
-  cursor: pointer;
 }
 
 .header .logo img {
