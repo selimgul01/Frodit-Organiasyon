@@ -5,9 +5,10 @@
   list-style: none;
   box-sizing: border-box;
 }
-body a:visited {
+body a:visited,a:link, a:hover ,a:active{
   color: #fff9f9;
 }
+
 
 body {
   font-family: "Raleway", sans-serif;
