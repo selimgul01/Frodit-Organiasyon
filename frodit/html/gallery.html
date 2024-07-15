@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/button.css">
@@ -13,7 +17,7 @@
 
 <body>
  
-    <div class="hero-container">
+    <div class="hero-container wow animate__animated animate__fadeInDown animate__delay-0.7s">
         <div class="header">
             <div class="logo">
                 <img src="../image/logo/logo2.jpeg" alt="">
@@ -38,7 +42,7 @@
     </div>
 
 
-    <div class="footer">
+    <div class="footer wow animate__animated animate__fadeInDown animate__delay-0.7s">
         <div class="footer-logo">
             <img src="../image/logo/logo2.jpeg" alt="">
             <span>FRODIT ORGANİZASYON</span>
@@ -97,6 +101,11 @@
         </div>
 
     </div>
+
+    <script src="../wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 
 </body>
 

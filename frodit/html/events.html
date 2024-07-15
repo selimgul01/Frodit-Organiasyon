@@ -7,6 +7,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/events.css" />
     <link rel="stylesheet" href="../css/scale.css" />
@@ -16,7 +20,7 @@
   </head> 
 
   <body class="body">
-    <div class="hero-container">
+    <div class="hero-container wow animate__animated animate__fadeInDown animate__delay-0.7s">
       <div class="header">
         <div class="logo">
           <img src="../image/logo/logo2.jpeg" alt="" />
@@ -48,8 +52,8 @@
       </div>
     </div>
 
-    <div class="event-section">
-      <div class="wedding">
+    <div class="event-section ">
+      <div class="wedding wow animate__animated animate__fadeInDown animate__delay-0.7s">
         <div class="text">
           <h2 class="shine">DÜĞÜN ORGANİZASYONLARI</h2>
           <button class="button">
@@ -72,7 +76,7 @@
         <div class="image-wedding img"></div>
       </div>
 
-      <div class="birthday">
+      <div class="birthday wow animate__animated animate__fadeInDown animate__delay-0.7s">
         <div class="image-birthday"></div>
 
         <div class="logo">
@@ -94,7 +98,7 @@
         </div>
       </div>
 
-      <div class="gender">
+      <div class="gender wow animate__animated animate__fadeInDown animate__delay-0.7s">
         <div class="text">
           <h2 class="shine">CİNSİYET ÖĞRENME ORGANİZASYONLARI</h2>
           <button class="button">
@@ -116,7 +120,7 @@
         <div class="image-gender"></div>
       </div>
 
-      <div class="company">
+      <div class="company wow animate__animated animate__fadeInDown animate__delay-0.7s">
         <div class="image-company"></div>
 
         <div class="logo">
@@ -140,7 +144,7 @@
       </div>
     </div>
 
-    <div class="footer">
+    <div class="footer wow animate__animated animate__fadeInDown animate__delay-0.7s">
       <div class="footer-logo">
         <img src="../image/logo/logo2.jpeg" alt="" />
         <span>FRODIT ORGANİZASYON</span>
@@ -213,6 +217,10 @@
       </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="../wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
   </body>
 </html>

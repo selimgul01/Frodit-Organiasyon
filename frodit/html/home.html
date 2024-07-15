@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="../css/footer.css">
@@ -15,7 +19,7 @@
 
 
 <body> 
-    <div class="hero-container">
+    <div class="hero-container wow animate__animated animate__fadeInDown animate__delay-0.7s">
         <div class="header">
             <div class="logo">
                 <img src="../image/logo/logo2.jpeg" alt="">
@@ -40,51 +44,12 @@
         </div>
     </div>
     
-
-    <!-- <div class="outer">
-        <div class="dot"></div>
-        <div class="card">
-            <div class="ray"></div>
-
-            <div class="text">
-                <section id="about-us">
-                    <h2>Hakkımızda</h2>
-                    <p>
-                        Organizasyon şirketimiz, Antalya'nın büyüleyici güzellikleri eşliğinde en özel anlarınızı
-                        unutulmaz kılmak amacıyla kurulmuştur. Antalya'nın eşsiz plajları, tarihi dokusu ve doğal
-                        güzellikleri, etkinliklerinize benzersiz bir atmosfer katmaktadır. Biz, profesyonel ekibimizle
-                        birlikte, her ayrıntıyı özenle planlayarak hayallerinizdeki organizasyonu gerçeğe
-                        dönüştürüyoruz.
-                    </p>
-                </section>
-            </div>
-            <div class="why-we">
-                <section>
-                    <h2>Neden Biz ?</h2>
-                    <p>
-                        Antalya'nın en prestijli organizasyon şirketi olarak, benzersiz konuavantajımızı en iyi şekilde
-                        değerlendiriyoruz. Antalya'nın muhteşedoğası ve kültürel zenginlikleri, etkinliklerinize büyülü
-                        bir atmosfekatarken, biz de bu güzellikleri en iyi şekilde yansıtacaorganizasyonlar
-                        düzenliyoruz. Profesyonel ekibimiz, yılların deneyimi vgeniş hizmet yelpazemizle, her türlü
-                        etkinliği kusursuz bir şekilde planlamak ve yönetmek için buradayız.
-                    </p>
-                </section>
-            </div>
-
-
-            <div class="line topl"></div>
-            <div class="line leftl"></div>
-            <div class="line bottoml"></div>
-            <div class="line rightl"></div>
-        </div>
-    </div> -->
-
-    <div class="customers">
+    <div class="customers ">
         <div class="customers-text">
             <h1>Referanslarımız</h1>
         </div>
 
-        <div class="organization-wrapper">
+        <div class="organization-wrapper wow animate__animated animate__backInUp animate__delay-0.5s ">
             <ul class="organizations">
                 <li class="organization-item">
                     <img class="organization-img" src="../image/company/company.jpg" alt="kokteyl organizasyon">
@@ -118,7 +83,7 @@
 
         </div>
 
-        <div class="container">
+        <div class="container wow animate__animated animate__backInUp animate__delay-0.5s">
             <div data-text="&#x2605 &#x2605 &#x2605 &#x2605 &#x2605" style="--r:-15;" class="glass">
                 Şirketleri ile çalışmak gerçekten harikaydı. Profesyonel yaklaşımları ve özenli hizmetleri sayesinde
                 etkinliğimiz muhteşem geçti. Her detayla ilgilenmeleri bizi çok memnun etti. &#129395; &#129321;
@@ -144,7 +109,7 @@
 
     </div>
 
-    <div class="footer">
+    <div class="footer wow animate__animated animate__backInUp animate__delay-1.5s">
         <div class="footer-logo">
             <img src="../image/logo/logo2.jpeg" alt="">
             <span>FRODIT ORGANİZASYON</span>
@@ -204,10 +169,10 @@
 
     </div>
 
-
-
-
-    <!-- <script src="../script.js"></script> -->
+    <script src="../wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>
